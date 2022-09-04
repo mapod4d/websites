@@ -1,0 +1,238 @@
+
+a {
+    color: chartreuse;
+}
+
+body {
+ background-image: url("img/background.png");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+#top-abstract {
+ margin-top: 15%;
+}
+
+.abstract {
+ font-size: 1.8em;
+}
+
+.info {
+ font-size: 1.6em;
+ margin-top: 0;
+}
+
+.contact {
+ font-size: 1.0em;
+ margin-bottom: 2px;
+}
+
+.download {
+    font-size: 1.6em;
+}
+
+.info_download {
+    font-size: 1.0em;
+    margin-bottom: 25px;
+}
+
+#mapod_png {
+    width: 47%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.logo_png {
+ max-height: 170px;
+}
+
+#col1 {
+ width: 50%;
+}
+
+#col2 {
+ width: 50%;
+}
+
+/* ----------- SEZIONE FLOSS */
+
+.floss {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.floss_info {
+    margin-top: 0;
+    margin-right: 15px;
+}
+
+/* ----------- SEZIONE RINGRAZIAMENTI */
+
+#top-tnk {
+    margin-top: 30px;
+}
+
+/* ----------- SEZIONE RESPONSIVE */
+
+
+@media screen and (max-width: 1920px) {
+    #spia {
+        background-color: brown;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #spia {
+        background-color: blue;
+    }
+
+    #col1 {
+        width: 40%;
+    }
+
+    #col2 {
+        width: 60%;
+    }
+
+    #top-abstract {
+        margin-top: 3%;
+    }
+
+    #mapod_png {
+        margin-top: 0%;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #spia {
+        background-color: orange;
+    }
+
+    .logo_png {
+        max-height: 110px;
+    }   
+
+    .abstract {
+        font-size: 1.4em;
+    }
+
+    .info {
+        font-size: 1.2em;
+    }
+
+    #col1 {
+        width: 40%;
+    }
+
+    #col2 {
+        width: 60%;
+    }
+
+    #top-abstract {
+        margin-top: 3%;
+    }
+
+    #mapod_png {
+        margin-top: 0%;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #spia {
+        background-color: yellow;
+    }
+
+    .logo_png {
+        max-height: 80px;
+    }   
+
+    .abstract {
+        font-size: 0.9em;
+    }
+
+    .info {
+        font-size: 0.8em;
+    }
+
+    #col1 {
+        width: 30%;
+    }
+
+    #col2 {
+        width: 70%;
+    }
+
+    #top-abstract {
+        margin-top: 0%;
+    }
+
+    #mapod_png {
+        margin-top: 2%;
+        width: 55%;
+    }
+}
+
+.mapod-color-blue {
+    color: #fff;
+    background-color: #000010;
+}
+
+.mapod-text-yellow {
+    color: yellow;
+}
+
+
+@media screen and (max-width: 479px) {
+    #spia {
+        background-color: orangered;
+    }
+
+    .logo_png {
+        max-height: 50px;
+    }   
+
+    .abstract {
+        font-size: 0.8em;
+    }
+
+    .info {
+        font-size: 0.7em;
+    }
+
+    #col1 {
+        width: 30%;
+    }
+
+    #col2 {
+        width: 70%;
+    }
+
+    #top-abstract {
+        margin-top: 0%;
+    }
+
+    #mapod_png {
+        margin-top: 2%;
+        width: 100%;
+    }
+}
+
+.mapod-color-blue {
+    color: #fff;
+    background-color: #000010;
+}
+
+.mapod-text-yellow {
+    color: yellow;
+}
+
+
