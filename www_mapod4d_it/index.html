@@ -23,6 +23,15 @@
       padding: 0;
       box-sizing: border-box;
     }
+
+    .carousel-item img {
+      opacity: 0.8;
+    }
+
+    .carousel-caption {
+      text-shadow: 2px 2px 5px #000;
+    }
+
   </style>
 </head>
 
@@ -63,7 +72,7 @@
     <main class="conteiner-fluid d-flex flex-column justify-content-center align-items-center mb-5">
 
       <!-- carosello -->
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide bg-dark" data-bs-ride="carousel" >
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -74,7 +83,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/hero_img1_s.png" class="d-block w-100 h-50" alt="Main Menu">
+            <img src="./img/hero_img1_s.png" class="d-block w-100" alt="Main Menu">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="h2">Main Menù</h5>
               <p>Mapod4D metaverse main menù</p>
@@ -82,14 +91,14 @@
           </div>
           <div class="carousel-item">
             <img src="./img/hero_img2_s.png" class="d-block w-100" alt="Main Menu">
-            <div class="carousel-caption d-none d-md-block text-black">
+            <div class="carousel-caption d-none d-md-block">
               <h5 class="h2">Anthropology Metaverse</h5>
               <p>The ancient jaw acquired using structured light scanner </p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./img/hero_img3_s.png" class="d-block w-100" alt="Main Menu">
-            <div class="carousel-caption d-none d-md-block text-black">
+            <div class="carousel-caption d-none d-md-block">
               <h5 class="h2 text-light">Cultural Heritage Metaverse</h5>
               <p>GAM - GOLASECCA ARCHEOLOGIA MULTIMEDIALE</p>
             </div>
@@ -174,7 +183,7 @@
       <b>Alessandra Mazzucchi</b><br>Anthropology and contents
     </p>
     <p>
-      <b>Serenella saccon</b><br>Legals
+      <b>Serenella Saccon</b><br>Legals
     </p>
   </div>
     <!-- Grid column -->
