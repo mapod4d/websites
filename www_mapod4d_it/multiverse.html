@@ -24,6 +24,11 @@
       box-sizing: border-box;
     }
 
+    a.nav-link.active {
+      background-color: #d3d3d3;
+      border-radius: 20px;
+    }
+
   </style>
 </head>
 
@@ -32,17 +37,20 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container" style="max-width: 1200px;">
-        <a class="navbar-brand" href="./index.html">
-          <img src="./img/mapod_new_render_scontornato.png" alt="" width="50" height="50"
-            class="d-inline-block align-text-top">
-        </a>
-        <a class="navbar-brand" style="font-weight: 700; color:#4f41d1;" href="./index.html">MAPOD4D</a>
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./img/mapod_new_render_scontornato.png" alt="" width="50" height="50"
+              class="d-inline-block align-text-top">
+          </a>
+          <a class="navbar-brand" style="font-weight: 700; color:#4f41d1; padding-bottom: 10px;"
+            href="./index.html">MAPOD4D</a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" style="color:#4f41d1; font-size: 1.2rem; font-weight:bold;">
+        <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+          <ul class="navbar-nav gap-lg-3" style="font-size: 1.2rem; font-weight:bold;">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="./index.html">Home</a>
             </li>
@@ -56,7 +64,7 @@
               <a class="nav-link" href="./showcase.html">Showcase</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary active" href="./multiverse.html">Multiverse</a>
+              <a class="nav-link active text-primary" href="./multiverse.html">Multiverse</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./governance.html">Governance</a>
@@ -67,7 +75,7 @@
     </nav>
 
     <!-- main -->
-    <main class="conteiner-fluid d-flex flex-column justify-content-center align-items-center">
+    <main class="conteiner-fluid d-flex flex-column justify-content-center align-items-center mb-5">
 
       <!-- sezione 1 -->
       <section class="container-fluid" style="background-color: var(--blue-mapod4d);">
@@ -146,14 +154,27 @@
                         target="_blank">Italian version</a></li>
                   </ul>
                 </div>
-                <div class="btn-group dropdown-end">
-                  <button type="button" class="btn text-light btn-lg dropdown-toggle"
-                    style="background-color: var(--blue-mapod4d);" data-bs-toggle="dropdown" aria-expanded="false">
-                    Download metaverses
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="http://e.pc.cd/RiwotalK" target="_blank">GAM</a></li>
-                    <li><a class="dropdown-item" href="http://e.pc.cd/e29otalK" target="_blank">Treviglio</a></li>
+
+                <div>
+                  <h3>Download metaverses</h3>
+                  <ul class="list-group">
+                    <li class=" list-group-item list-group-item-action"><img src="./img/null.png"
+                        alt="Logo MAPOD4D Castelseprio" style="width: 20px; height: 20px;">&nbsp<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/cscp2022/win64_c1_cscp2022_1_0_0_7_rc3_7z.exe"
+                        target="_blank">Castelseprio - Casa Piccoli</a></li>
+                    <li class=" list-group-item list-group-item-action"><img src="./img/null.png"
+                        alt="Logo MAPOD4D Monastero di Astino" style="width: 20px; height: 20px;">&nbsp<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/bgastn/win64_c1_bgastn_0_0_0_6_a_7z.exe"
+                        target="_blank">Monastero di Astino</a></li>
+                    <li class=" list-group-item list-group-item-action"><img src="./img/loghi_mapod/logo_gam.png"
+                        alt="Logo MAPOD4D GAM" style="width: 20px; height: 20px;">&nbsp<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/gam/mswin64_gam_0_0_0_6_b_7z.exe"
+                        target="_blank">GAM</a></li>
+                    <li class=" list-group-item list-group-item-action"><img
+                        src="./img/loghi_mapod/logo_treviglio_av113iv01t23.png" alt="Logo MAPOD4D Treviglio"
+                        style="width: 20px; height: 20px;">&nbsp<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/treviglio_av13iv01t23/win64_mapod_treviglioav13iv01-1-0-0-1-b.zip"
+                        target="_blank">Treviglio</a></li>
                   </ul>
                 </div>
               </div>
